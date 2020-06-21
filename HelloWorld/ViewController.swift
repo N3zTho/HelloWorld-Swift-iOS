@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func boton(_ sender: UIButton) {
-        let alert = UIAlertController(title: "HelloWorld", message: texto.text, preferredStyle: .alert)
+        let alert = UIAlertController(title: "HelloWorld", message: texto.text, preferredStyle: .actionSheet)
         let accion = UIAlertAction(title: "ok", style: .default) { (_) in
             print("click on button")
         }

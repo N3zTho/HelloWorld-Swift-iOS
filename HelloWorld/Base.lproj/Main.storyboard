@@ -21,9 +21,9 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W40-xX-XQM">
-                                <rect key="frame" x="157" y="178" width="61" height="30"/>
+                                <rect key="frame" x="146" y="178" width="82" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Clic here"/>
+                                <state key="normal" title="Click here"/>
                                 <connections>
                                     <action selector="boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mnb-iH-h9T"/>
                                 </connections>
@@ -31,12 +31,12 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W40-xX-XQM" secondAttribute="trailing" constant="147" id="8Xf-Xw-P72"/>
+                            <constraint firstItem="W40-xX-XQM" firstAttribute="top" secondItem="ax4-vc-B51" secondAttribute="bottom" constant="43" id="Boa-n7-mI8"/>
                             <constraint firstItem="ax4-vc-B51" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="101" id="HZf-ki-0Js"/>
-                            <constraint firstItem="W40-xX-XQM" firstAttribute="top" secondItem="ax4-vc-B51" secondAttribute="bottom" constant="43" id="YSU-93-iLQ"/>
+                            <constraint firstItem="W40-xX-XQM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="146" id="MDI-YY-kow"/>
                             <constraint firstItem="ax4-vc-B51" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="gjF-T1-gN5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ax4-vc-B51" secondAttribute="trailing" constant="16" id="jC9-tF-6SB"/>
-                            <constraint firstItem="W40-xX-XQM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="157" id="quc-9Y-8Se"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W40-xX-XQM" secondAttribute="trailing" constant="157" id="yZA-n8-RzZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
