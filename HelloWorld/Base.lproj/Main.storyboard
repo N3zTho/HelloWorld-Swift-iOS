@@ -24,6 +24,9 @@
                                 <rect key="frame" x="157" y="178" width="61" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Clic here"/>
+                                <connections>
+                                    <action selector="boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mnb-iH-h9T"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -37,6 +40,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="texto" destination="ax4-vc-B51" id="hvh-QC-SBR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
