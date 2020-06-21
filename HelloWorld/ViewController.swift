@@ -18,13 +18,25 @@ class ViewController: UIViewController {
     }
 
     @IBAction func boton(_ sender: UIButton) {
-        let alert = UIAlertController(title: "HelloWorld", message: texto.text, preferredStyle: .actionSheet)
-        let accion = UIAlertAction(title: "ok", style: .default) { (_) in
-            print("click on button")
-        }
+        //remove keyboard
+        texto.resignFirstResponder()
+        let alert = UIAlertController(title: "HelloWorld", message: texto.text, preferredStyle: .alert)
+//        let accion = UIAlertAction(title: "ok", style: .default) { (_) in
+//            print("click on button")
+//        }
+        
+      let accion =   UIAlertAction(title: "OK", style: .default, handler: {(_) in
+            print("Example")
+        })
+        
         
         alert.addAction(accion)
         present(alert, animated: true, completion: nil)
+    }
+    
+    //remove keyboard
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(false)
     }
     
 }
